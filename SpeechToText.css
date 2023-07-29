@@ -1,0 +1,91 @@
+body {  
+    background: #000;
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    flex-direction: column;  
+   }  
+   .heading{
+    margin-top: 2rem ;
+    color: rgb(125, 11, 182);
+   }
+   .heading h1 span{
+    color: #f1c40f;
+   }
+   h1 {  
+    text-align: center;
+
+   }  
+   .container {  
+    display: flex;  
+    justify-content: center;  
+    height: 150px;  
+    width: 500px;
+    border: 6px double grey; 
+    border-top-color: aqua; 
+    border-right-color:yellow;
+    border-bottom-color: rgb(255, 149, 0);
+    border-left-color: rgb(0, 255, 81);
+    border-radius: 16px;
+    background-color: rgb(1, 17, 20);  
+    color: #f1c40f;
+    font-size: 2rem;  
+    padding: 1rem;  
+    margin: 2rem;  
+   }  
+  
+/* Button Three   */
+.microphone{
+    border-radius: 50%;
+    padding: 20px;  
+    width: 180px; 
+    height: 180px; 
+    border: none;
+    background-color: rgb(9, 41, 34);
+    color: rgb(3, 105, 105);  
+}
+.btns{   
+    cursor: pointer;  
+    font-size: 18px;  
+    position: relative;  
+    text-align: center;  
+    -webkit-transition-duration: 0.4s; /* Safari */  
+    transition-duration: 0.4s;  
+    text-decoration: none;  
+    overflow: hidden;  
+   }  
+   .copybtn{
+    width: 6rem;
+    height: 2rem;
+    padding: 4px;
+   }
+   .btns:hover {  
+    background: #fff;  
+    box-shadow: 0px 2px 10px 5px #97b1bf;  
+    color: #000;  
+   }  
+   .microphone ion-icon{
+    font-size: 80px;
+  
+   }
+   button{
+    font-weight: 700;
+   }
+   .btns:after {  
+    content: "";  
+    background: #f1c40f;  
+    display: block;  
+    position: absolute;  
+    padding-top: 300%;  
+    padding-left: 350%;  
+    margin-left: -20px !important;  
+    margin-top: -120%;  
+    opacity: 0;  
+    transition: all 0.8s;  
+   }  
+   .btns:active:after {  
+    padding: 0;  
+    margin: 0;  
+    opacity: 1;  
+    transition: 0s;  
+   }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text Converter</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./SpeechToText.css">
+</head>
+<body>  
+    <div class="heading">
+        <h1><span>Speech </span>To <span>Text</span> Converter</h1>  
+    </div>
+        <button class="microphone btns" id="btn" onclick="recognition.start()">  
+         <ion-icon name="mic-outline"></ion-icon>
+         <br>
+         Click
+        </button>  
+    <div id="textResult" class="container">
+        <p id="listen"></p>  
+     <p>Text is show here</p>  
+    </div>  
+    <button class="btns copybtn" onclick="copyCode()">Copy <ion-icon name="copy"></ion-icon>
+    </button>  
+
+    <script src="./SpeechToText.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js"></script>
+   </body>
+</html>
